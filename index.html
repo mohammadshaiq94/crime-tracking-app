@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>crime tracking app</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <h1 id="heading">CRIME TRACKING APP</h1>
+
+    <form id="frm" onsubmit="return onSubmit()">
+        <table class="form">
+            <tr><td>select crimes here:</td></tr>
+            <tr>
+                <td>
+                    <select id="crime_category" name="crime">
+                    </select>
+                </td>
+            </tr>
+            <tr><td>select forces here:</td></tr>
+            <tr>
+                <td>
+                    <select id="forces_category" name="forces">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="category">Search</button>
+                </td>
+            </tr>
+            </table>y
+    </form>
+
+
+    <table border="2" id="table">
+        <tr>
+            <th id="index">#</th>
+            <th id="categ">Category</th>
+            <th id="date">Date</th>
+            <th id="id">ID</th>
+            <th id="status">Status</th>
+        </tr>
+    </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<script src="crime.js"></script>
+
+</html>

@@ -1,0 +1,85 @@
+table{
+ background-color: white;
+}
+#category{
+    
+        background-color: rgb(182, 157, 49); 
+        border: none;
+        color:black;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        border-radius: 9px;
+        margin-top: 13px;
+        margin-left: 75px;
+        
+   
+   
+}
+
+#table{
+    margin :auto;
+    margin-top: 50px;
+}
+
+body{
+    background: url("crimetape-1.jpg");
+    
+}
+
+.form{
+    margin: auto;
+    text-align: left;
+    background-color: rgb(253, 237, 7);
+    opacity: .6;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+#heading{
+    text-align: center;
+    color:rgb(182, 157, 49);
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-size: 50px;
+    margin-top: 30px;
+   
+    
+}
+
+#crime_category{
+    border: 4px solid rgb(182, 157, 49);
+    margin-top: 13px;
+}
+
+
+#forces_category{
+    border: 4px solid rgb(182, 157, 49);
+    margin-top: 13px;
+}
+
+    #index{
+        text-align: center;
+        width: 50px;    
+    }
+    #categ{
+        text-align: center;
+        width: 300px;
+    }
+    #date{
+        text-align: center;
+        width: 90px;
+    }
+    #status{
+        text-align: center;
+        width: 150px;
+    }
+    #id{
+        text-align: center;
+        width: 100px; 
+    }
